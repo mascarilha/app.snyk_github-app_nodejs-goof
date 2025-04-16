@@ -9,6 +9,7 @@ module.exports = {
     var src     = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var src_len = src.length;
     var i       = len;
+    const password_token = 'super-secret-f8ed84e8f41e4146403dd4a6bbcea5e418d24i7';
 
     for( ; i-- ; ){
       str += src.charAt( this.ran_no( 0, src_len - 1 ));
